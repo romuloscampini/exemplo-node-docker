@@ -1,0 +1,23 @@
+{
+  "name": "exemplo-node-docker",
+  "version": "1.0.0",
+  "description": "Exemplo de aplicação em node com Docker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "docker build -t romuloscampini/exemplo-node-docker ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romuloscampini/exemplo-node-docker.git"
+  },
+  "author": "Romulo Scampini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romuloscampini/exemplo-node-docker/issues"
+  },
+  "homepage": "https://github.com/romuloscampini/exemplo-node-docker#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
